@@ -1,0 +1,46 @@
+.v-btn{
+    width: auto;
+    background-color: hsl(326, 100%, 55%);
+    font-size: 16px;
+    padding: 0px 25px;
+    border-radius: 0.5rem !important;
+    text-transform: capitalize !important;
+    font-family: 'SATOSHI-REGULAR' !important;
+    box-shadow: none !important;
+    &.bg-success{
+        background-color: hsl(326, 100%, 55%) !important;
+    }
+    &.v-btn--size-large{
+        height: 48px !important;
+    }
+    &.v-btn--size-large{
+        height: 48px !important;
+    }
+    &.v-btn--size-small{
+        height: 36px !important;
+    }
+}
+
+.status{
+    min-width: 66px;
+    height: auto;
+    padding: 8px 11px;
+    border-radius: 0.5rem;
+    font-size: 12px;
+    font-family: "SATOSHI-MEDIUM" !important;
+    display: inline-block;
+    text-align: center;
+    &.status-active,
+    &.status-paid{
+        color: #379F00;
+        background: #EFF8EB;
+    }
+    &.status-inactive{
+        color: #BA1A1A;
+        background: #FFDAD6;
+    }
+    &.status-pending{
+        color: #FF9900;
+        background: #FFEDD1;
+    }
+}
